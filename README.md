@@ -15,32 +15,32 @@
 
 ## Dataset description:
 
-### 1. Review Dataset
+###  Review Dataset
 
  1) reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B 
  2) asin - ID of the product, e.g. 0000013714 
  3) reviewerName - name of the reviewer 
  4) vote - helpful votes of the review 
- style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" 
-reviewText - text of the review 
-overall - rating of the product 
-summary - summary of the review 
-unixReviewTime - time of the review (unix time) 
-reviewTime - time of the review (raw) 
-image - images that users post after they have received the product
+ 5) style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" 
+ 6) reviewText - text of the review 
+ 7) overall - rating of the product 
+ 8) summary - summary of the review 
+ 9) unixReviewTime - time of the review (unix time) 
+10) reviewTime - time of the review (raw) 
+11) image - images that users post after they have received the product
  
-### 2. Product Metadata
+### Product Metadata
 
-asin - ID of the product, e.g. 0000031852
-title - name of the product
-feature - bullet-point format features of the product
-description - description of the product
-price - price in US dollars (at time of crawl)
-image - url of the product image
-related - related products (also bought, also viewed, bought together, buy after viewing)
-salesRank - sales rank information
-brand - brand name
-categories - list of categories the product belongs to
-tech1 - the first technical detail table of the product
-tech2 - the second technical detail table of the product
-similar - similar product table
+ 1) asin - ID of the product, e.g. 0000031852
+ 2) title - name of the product
+ 3) feature - bullet-point format features of the product
+ 4) description - description of the product
+ 5) price - price in US dollars (at time of crawl)
+ 6) image - url of the product image
+ 7) related - related products (also bought, also viewed, bought together, buy after viewing)
+ 8) salesRank - sales rank information
+ 9) brand - brand name
+10) categories - list of categories the product belongs to
+11) tech1 - the first technical detail table of the product
+12) tech2 - the second technical detail table of the product
+12) similar - similar product table
