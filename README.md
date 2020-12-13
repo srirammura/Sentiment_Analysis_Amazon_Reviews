@@ -1,12 +1,6 @@
 # Sentiment Analysis Amazon Reviews
 
-## Problem Statement:
-
-There are two datasets that you are given.
-Review dataset which has user-product review information
-Product metadata for the products present in #1
-
-## Outcomes Expected :
+## Outcomes:
 
  1) Out of all the users, find the global potential promoter(A promoter is the one who mostly has positive words to say about a product and hence believed to act as a promoter of the product. A global promoter would be someone who is a promoter for maximum number of products)
 
