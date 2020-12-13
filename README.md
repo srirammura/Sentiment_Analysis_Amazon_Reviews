@@ -17,11 +17,11 @@
 
 ### 1. Review Dataset
 
-reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B 
-asin - ID of the product, e.g. 0000013714 
-reviewerName - name of the reviewer 
-vote - helpful votes of the review 
-style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" 
+ 1) reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B 
+ 2) asin - ID of the product, e.g. 0000013714 
+ 3) reviewerName - name of the reviewer 
+ 4) vote - helpful votes of the review 
+ style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" 
 reviewText - text of the review 
 overall - rating of the product 
 summary - summary of the review 
