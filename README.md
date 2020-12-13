@@ -1,25 +1,32 @@
 # Sentiment Analysis Amazon Reviews
 
+## Problem Statement
+   
+  There are two datasets that you are given:
+  
+   1) Review dataset which has user-product review information
+   2) Product metadata for the products present in #1
+
 ## Outcomes:
 
  1) Out of all the users, find the global potential promoter(A promoter is the one who mostly has positive words to say about a product and hence believed to act as a promoter of the product. A global promoter would be someone who is a promoter for maximum number of products)
 
- 2)Out of all the products, find the product which has most number of promoters
+ 2) Out of all the products, find the product which has most number of promoters
 
 ## Dataset description:
 
 ### 1. Review Dataset
 
-reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B
-asin - ID of the product, e.g. 0000013714
-reviewerName - name of the reviewer
-vote - helpful votes of the review
-style - a dictionary of the product metadata, e.g., "Format" is "Hardcover"
-reviewText - text of the review
-overall - rating of the product
-summary - summary of the review
-unixReviewTime - time of the review (unix time)
-reviewTime - time of the review (raw)
+reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B 
+asin - ID of the product, e.g. 0000013714 
+reviewerName - name of the reviewer 
+vote - helpful votes of the review 
+style - a dictionary of the product metadata, e.g., "Format" is "Hardcover" 
+reviewText - text of the review 
+overall - rating of the product 
+summary - summary of the review 
+unixReviewTime - time of the review (unix time) 
+reviewTime - time of the review (raw) 
 image - images that users post after they have received the product
  
 ### 2. Product Metadata
